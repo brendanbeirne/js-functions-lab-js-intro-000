@@ -11,13 +11,13 @@ function happyHolidaysTo(name){
 }
 happyHolidaysTo();
 
-function happyCustomHolidayTo(){
+function happyHolidaysTo(holiday, name){
   return `Happy ${holiday}, ${name}!`;
 }
 
 holidayCountdown();
-holidayCountdown();
-functions holidayCountdown(){
+
+function holidayCountdown(){
   return `It's ${days} days until ${holiday}!`;
 }
 }
