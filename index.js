@@ -9,11 +9,13 @@ happyHolidays();
 function happyHolidaysTo(name){
   return `Happy holidays, ${name}!`;
 }
-happyCustomHolidayTo();
+happyHolidaysTo();
 
 function happyCustomHolidayTo(){
   return `Happy ${holiday}, ${name}!`;
 }
+
+holidayCountdown();
 holidayCountdown();
 functions holidayCountdown(){
   return `It's ${days} days until ${holiday}!`;
